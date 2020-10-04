@@ -414,7 +414,7 @@ ul {
  */
 
 html {
-  font-family: syne; /* 1 */
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; /* 1 */
   line-height: 1.5; /* 2 */
 }
 
@@ -10182,7 +10182,7 @@ video {
 }
 
 .font-sans {
-  font-family: syne;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 
 .font-serif {
@@ -10427,6 +10427,18 @@ video {
 
 .text-6xl {
   font-size: 4rem;
+}
+
+.text-6\.5xl {
+  font-size: 3.75em;
+}
+
+.text-4\.5xl {
+  font-size: 2.50em;
+}
+
+.text-3\.5xl {
+  font-size: 2.20em;
 }
 
 .leading-3 {
@@ -18463,6 +18475,10 @@ video {
 
 .w-screen {
   width: 100vw;
+}
+
+.w-6\.5\/12 {
+  width: 54%;
 }
 
 .z-0 {
@@ -30831,7 +30847,7 @@ video {
   }
 
   .sm\:font-sans {
-    font-family: syne;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   }
 
   .sm\:font-serif {
@@ -31076,6 +31092,18 @@ video {
 
   .sm\:text-6xl {
     font-size: 4rem;
+  }
+
+  .sm\:text-6\.5xl {
+    font-size: 3.75em;
+  }
+
+  .sm\:text-4\.5xl {
+    font-size: 2.50em;
+  }
+
+  .sm\:text-3\.5xl {
+    font-size: 2.20em;
   }
 
   .sm\:leading-3 {
@@ -39112,6 +39140,10 @@ video {
 
   .sm\:w-screen {
     width: 100vw;
+  }
+
+  .sm\:w-6\.5\/12 {
+    width: 54%;
   }
 
   .sm\:z-0 {
@@ -51415,7 +51447,7 @@ video {
   }
 
   .md\:font-sans {
-    font-family: syne;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   }
 
   .md\:font-serif {
@@ -51660,6 +51692,18 @@ video {
 
   .md\:text-6xl {
     font-size: 4rem;
+  }
+
+  .md\:text-6\.5xl {
+    font-size: 3.75em;
+  }
+
+  .md\:text-4\.5xl {
+    font-size: 2.50em;
+  }
+
+  .md\:text-3\.5xl {
+    font-size: 2.20em;
   }
 
   .md\:leading-3 {
@@ -59696,6 +59740,10 @@ video {
 
   .md\:w-screen {
     width: 100vw;
+  }
+
+  .md\:w-6\.5\/12 {
+    width: 54%;
   }
 
   .md\:z-0 {
@@ -71999,7 +72047,7 @@ video {
   }
 
   .lg\:font-sans {
-    font-family: syne;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   }
 
   .lg\:font-serif {
@@ -72244,6 +72292,18 @@ video {
 
   .lg\:text-6xl {
     font-size: 4rem;
+  }
+
+  .lg\:text-6\.5xl {
+    font-size: 3.75em;
+  }
+
+  .lg\:text-4\.5xl {
+    font-size: 2.50em;
+  }
+
+  .lg\:text-3\.5xl {
+    font-size: 2.20em;
   }
 
   .lg\:leading-3 {
@@ -80280,6 +80340,10 @@ video {
 
   .lg\:w-screen {
     width: 100vw;
+  }
+
+  .lg\:w-6\.5\/12 {
+    width: 54%;
   }
 
   .lg\:z-0 {
@@ -92583,7 +92647,7 @@ video {
   }
 
   .xl\:font-sans {
-    font-family: syne;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   }
 
   .xl\:font-serif {
@@ -92828,6 +92892,18 @@ video {
 
   .xl\:text-6xl {
     font-size: 4rem;
+  }
+
+  .xl\:text-6\.5xl {
+    font-size: 3.75em;
+  }
+
+  .xl\:text-4\.5xl {
+    font-size: 2.50em;
+  }
+
+  .xl\:text-3\.5xl {
+    font-size: 2.20em;
   }
 
   .xl\:leading-3 {
@@ -100864,6 +100940,10 @@ video {
 
   .xl\:w-screen {
     width: 100vw;
+  }
+
+  .xl\:w-6\.5\/12 {
+    width: 54%;
   }
 
   .xl\:z-0 {
