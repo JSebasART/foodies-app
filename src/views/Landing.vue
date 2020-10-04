@@ -16,7 +16,7 @@
     <div id="content" class="absolute z-10 w-full h-full pt-32 lg:pt-40">
       <!-- <div class="bg-black mx-auto h-screen w-1 z-10"></div> -->
       <div id="section-1" class="container  mx-auto pl-8 pr-2 ">
-        <div class="container w-full md:w-1/2">
+        <div class="container w-full md:w-1/2" data-aos="zoom-in">
           <img
             src="@/assets/landing/burger.svg"
             class="w-bw md:w-7/12 lg:w-4/12"
@@ -44,25 +44,29 @@
           </div>
         </div>
       </div>
-      <div id="section-2" class="mt-24 overflow-hidden">
+      <div id="section-2" class="mt-24 overflow-hidden ">
         <div class="relative inline-block container ">
           <img src="@/assets/landing/people.svg" class="max-w-none " />
           <div
-            class="absolute bottom-0 right-0 druk-bold text-white mr-2 ml-4 text-right leading-9 text-4.5xl sm:text-4.5xl md:text-6xl"
+            class="absolute bottom-0 right-0 druk-bold text-white mr-2 ml-4 mb-8 text-right leading-9 text-4.5xl sm:text-4.5xl md:text-6xl"
           >
             <p class="inline">La comida es</p>
             <p class="inline text-yellow-600">nuestro arte</p>
           </div>
         </div>
-        <div class="container">
-          <div class="syne">
+        <div class="container pl-8 pr-2">
+          <div class="syne mt-16 text-2xl">
             ¿Quién es Foodies?
           </div>
-          <div class="open">
+          <div class="open mt-6">
             Elit irure ad nulla id elit laborum nostrud mollit irure. Velit
             reprehenderit sunt nulla enim aliquip duis tempor est culpa fugiat
             consequat culpa consectetur Lorem. Reprehenderit dolore culpa irure
             eiusmod minim occaecat et id minim ullamco.
+          </div>
+		   <div class="syne mt-8 text-2xl md:text-4.5xl lg:text-6.5xl">
+            <p class="block float-left">Contáctanos</p>
+            <img src="@/assets/landing/arrow.svg" class="float-left mt-2" />
           </div>
         </div>
       </div>
