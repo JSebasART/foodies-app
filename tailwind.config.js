@@ -5,11 +5,11 @@ module.exports = {
   },
   purge: [],
   theme: {
+    
     extend: {
       width: {
         "6.5/12": "54%",
         "75": "75px",
-        "bw": "0.834em",
         'bw2': '97.5%',
       },
       fontSize: {
@@ -17,6 +17,10 @@ module.exports = {
         "4.5xl": "2.50em",
         "3.5xl": "2.20em",
       },
+    },
+    borderRadius: {
+
+       'lg': '30px',
     },
     spacing: {
       '7.5': "7.5em",
