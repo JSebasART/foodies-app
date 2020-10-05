@@ -40,17 +40,17 @@
             <a class="inline-block "></a>
           </li>
           <li class="mr-3">
-            <a class="inline-block syne text-2xl pt-12 px-4" href="#"
+            <p><a class="inline-block syne text-2xl pt-12 px-4" href="#section-6"
               >Acerca de</a
-            >
+            ></p>
           </li>
           <li class="mr-3">
-            <a class="inline-block text-2xl syne pt-12 px-4" href="#"
+            <a class="inline-block text-2xl syne pt-12 px-4" href="#section-4" 
               >Restaurantes</a
             >
           </li>
           <li class="mr-3">
-            <a class="inline-block syne text-2xl pt-12 pb-12 px-4" href="#"
+            <a class="inline-block syne text-2xl pt-12 pb-12 px-4" href="#section-5"
               >Contáctanos</a
             >
           </li>
@@ -58,16 +58,16 @@
       </div>
       <div class="mt-4 lg:ml-24 float-left invisible lg:visible">
         <div class="syne text-xl mx-6 float-left invisible lg:visible">
-          Acerca de
+          <a href="#section-6">Acerca de</a>
+        </div>
+        <div class="syne text-xl mx-6 float-left invisible lg:visible ">
+          <a href="#section-3">Restaurantes</a>
+        </div>
+        <div class="syne text-xl mx-6 float-left invisible lg:visible" >
+          <router-link to="/Menu">Menú</router-link>
         </div>
         <div class="syne text-xl mx-6 float-left invisible lg:visible">
-          Restaurantes
-        </div>
-        <div class="syne text-xl mx-6 float-left invisible lg:visible">
-          Menú
-        </div>
-        <div class="syne text-xl mx-6 float-left invisible lg:visible">
-          Contáctanos
+          <a href="#section-5"> Contáctanos</a>
         </div>
       </div>
     </nav>
@@ -103,7 +103,7 @@
             emociones inigualables.
           </div>
           <div class="syne mt-8 text-2xl">
-            <p class="block float-left">Encuentranos</p>
+            <p class="block float-left" ><a href="#section-3">Encuentranos</a></p>
             <img
               src="@/assets/landing/arrow.svg"
               class="float-left ml-4 mt-2 "
@@ -135,7 +135,7 @@
             <div
               class="relative z-10 syne mt-8 text-2xl md:text-xl "
             >
-              <p class="float-left mr-4">Contáctanos</p>
+              <p class="float-left mr-4"><a href="#section-5">Contáctanos</a></p>
               <img
                 src="@/assets/landing/arrow.svg"
                 class="float-left mt-2 md:mt-1"
@@ -497,6 +497,12 @@
         </div>
       </footer>
     </div>
+    <!-- <div class="fixed bg-black inset-0 z-40 bg-fixed">
+        <img
+              src="@/assets/landing/envelope.svg"
+              class=""
+            />
+    </div> -->
   </div>
 </template>
 
@@ -512,7 +518,6 @@ export default {
   created() {
     this.GetTakeaway();
     this.GetDelivery();
-    this.PostComments();
   },
   methods: {
     GetTakeaway: function() {
